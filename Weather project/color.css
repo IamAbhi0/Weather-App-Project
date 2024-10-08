@@ -1,0 +1,206 @@
+body{
+    /* background-image: url(3d-cartoon-night-sky.jpg); */
+    /* background-image: url(Web\ project\ bg\ 01.png); */
+    /* background-image: url(illustration-anime-city.jpg); */
+    background-color: #1B1A55;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-attachment: revert-layer; */
+    /* background-image: url(3d-cartoon-night-sky.jpg); */
+    /* background-image: url(Web project bg 01.png); */
+    /* background-size: cover; */
+    background-size: 100vw 120vh;
+
+
+
+
+
+
+
+
+    /* background-repeat: no-repeat;
+    background-position-x: center; */
+    /* background-size: 99vw;
+    margin: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-size: cover; */
+
+    background-size: 100vw 130vh;
+    /* background-size: cover;
+  
+  
+   background-position: center; 
+  
+  
+  background-repeat: no-repeat; 
+  
+   
+   background-attachment: fixed; 
+  
+  
+   height: 90%; 
+   backdrop-filter: blur(0.5px) */
+}
+
+body h1{
+    color: #7FA1C3;
+    margin: auto;
+    font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.checkkk{
+    width: 25vw;
+    height: 45vh;
+    margin: auto;
+    top: 25vh;
+    position: relative;
+    border: 1px solid white;
+    padding: 20px;
+    z-index: 100;
+}
+
+.find_weather{
+    cursor: pointer;
+}
+
+body h2{
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+   align-content: center;
+   justify-content: center;
+    flex-direction: row;
+    font-size: 7px;
+}
+body h3{
+    position: relative;
+    background-color: white;
+    width: 20vw;
+    height: 7vh;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    border-radius: 10px;
+}
+
+.weather_city{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    /* border: 1px solid white; */
+}
+
+#city_input{
+    width: 10vw;
+    height: 3.5vh;
+    background: transparent;
+    border: 2px solid black; 
+    border-radius: 3px;
+    color: #2C3639;
+    padding: 5px;
+    
+}
+
+.label_city{
+    font-size: 25px;
+    color: white;
+}
+#go_button{
+    height: 3.5vh;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+/* #go_button:hover{
+    background-color:#6528F7;
+    border-radius: 5px;
+    color: snow;
+} */
+
+#weather_data{
+/* background-color: paleturquoise; */
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 15vh;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    column-gap: 0px;
+   
+}
+
+.weather_data_bg{
+ background-color: #937DC2;
+    border-radius: 10px;
+}
+
+.transperant{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25vh;
+    border: 2px solid white;
+    width: 25vw;
+    height: 45vh;
+    column-gap: 5px;
+    margin: auto;
+    margin-left: 40vw;
+    background-color: #F5EFFF;
+}
+
+.bgbox{
+    background-color: white;
+    opacity: 50%;
+}
+
+#city_name{
+
+    color: white;
+    font-size: 28px;
+    margin: auto;
+    font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+#temperature_city{
+
+ color: white;
+ margin: auto;
+ font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+#weather_condition{
+    color: white;
+    margin: auto;
+    font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.weather_data{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
